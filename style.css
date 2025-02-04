@@ -46,7 +46,8 @@ body * {
 /*margin funciona como um relógio, o primeiro elemento é o top, o segundo são as laterais e o terceiro é o bottom */
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: 56px auto 0px;
   padding: 0 24px;
 }
@@ -90,7 +91,7 @@ body * {
   top: 50%;
   left: 0;
   z-index: 1;
-  transform: translateY(-50%)
+  transform: translateY(-50%);
 }
 
 .light #switch button {
