@@ -14,7 +14,11 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 <br>
 
 <p align="center">
+<<<<<<< HEAD
   <img alt="DevLinks - Projeto Discover" src=".github/preview.jpg" width="100%">
+=======
+  <img alt="Dev Links - Projeto Discover" src=".github/preview.jpg" width="100%">
+>>>>>>> 284942158460a99c650d0c9bec29d2359871d749
 </p>
 
 ## 🚀 Tecnologias
