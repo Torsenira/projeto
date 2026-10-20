@@ -1,16 +1,16 @@
-# Designs FigCraft
+# Designs FigCraft — Manager Farm Web
 
-Coloque aqui o arquivo do projeto (ex.: `Manager-Farm-Web.figcraft`).
+Pasta usada pelo MCP do Cursor.
 
-O MCP do Cursor só lê/escreve nesta pasta (raízes de automação).
+## Onde está o projeto
+Caminho local esperado:
 
-## Como obter o arquivo
-1. Abra o projeto no FigCraft (app desktop ou exporte do navegador).
-2. Salve como `.figcraft` nesta pasta.
-3. No chat do Cursor: peça para abrir `designs/SeuArquivo.figcraft` e editar.
+- `Documentos/manager farm/ManagerFarmWeb`
+- ou `Documents/manager farm/ManagerFarmWeb`
 
-## MCP ao vivo (opcional)
-```bash
-figcraft --control 7979
-```
-Depois use o servidor MCP `figcraft-app` no Cursor.
+O script `scripts/setup-figcraft-mcp.sh` detecta essa pasta e:
+1. libera leitura/escrita no MCP
+2. cria o atalho `designs/ManagerFarmWeb` → sua pasta em Documentos
+
+## Cloud Agent
+O Cloud Agent **não vê** sua pasta Documentos. Para trabalhar na nuvem, copie o `.figcraft` para cá ou anexe no chat.
