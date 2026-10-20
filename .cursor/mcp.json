@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "figcraft": {
+      "command": "npx",
+      "args": ["-y", "figcraft-design"]
+    }
+  }
+}
