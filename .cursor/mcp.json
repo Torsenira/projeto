@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "figcraft": {
+      "command": "figcraft-cli",
+      "args": [
+        "mcp",
+        "--no-system-fonts",
+        "--automation-read-root",
+        "${workspaceFolder}/designs",
+        "--automation-write-root",
+        "${workspaceFolder}/designs"
+      ]
+    },
+    "figcraft-app": {
+      "command": "figcraft-cli",
+      "args": ["mcp", "--attach", "7979"]
+    }
+  }
+}
