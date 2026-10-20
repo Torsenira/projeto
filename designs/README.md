@@ -1,16 +1,21 @@
-# Designs FigCraft — Manager Farm Web
+# Designs — Manager Farm Web
 
-Pasta usada pelo MCP do Cursor.
+Cópia local salva neste ambiente:
 
-## Onde está o projeto
-Caminho local esperado:
+- `ManagerFarmWeb.fig` — original (Save local copy)
+- `ManagerFarmWeb.figcraft` — convertido para o MCP
 
-- `Documentos/manager farm/ManagerFarmWeb`
-- ou `Documents/manager farm/ManagerFarmWeb`
+> Estes binários estão no `.gitignore` (repo público). Ficam só na máquina/ambiente.
 
-O script `scripts/setup-figcraft-mcp.sh` detecta essa pasta e:
-1. libera leitura/escrita no MCP
-2. cria o atalho `designs/ManagerFarmWeb` → sua pasta em Documentos
+## Setup
+```bash
+bash scripts/setup-figcraft-mcp.sh
+```
 
-## Cloud Agent
-O Cloud Agent **não vê** sua pasta Documentos. Para trabalhar na nuvem, copie o `.figcraft` para cá ou anexe no chat.
+## MCP
+- `figcraft` — headless (stdio)
+- `figcraft-app` — ao vivo: `figcraft --control 7979`
+
+Cursor → Settings → Tools & MCP → Connect `figcraft`.
+
+Prompt pronto: veja `AGENT_PROMPT.md`.

@@ -1,0 +1,5 @@
+# Designs locais (repo é público — não versionar o .fig)
+designs/*.fig
+designs/*.figcraft
+designs/ManagerFarmWeb
+.cursor/mcp.local.json
